@@ -44,16 +44,25 @@ hr{
 }
 
 .hd_logo{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
-    padding-bottom: 15px;
+    width: 100%;
+    height: 70px;
 }
 
+.logo{
+    padding-bottom: 15px;
+    float: left;
+}
+
+.logo_btn{
+    float: right;
+    padding-top: 10px;
+}
 .hd_logo .logo_btn .btn_img{
     margin-right: 10px;
+}
+
+.clear{
+    clear: both;
 }
 
 
@@ -76,7 +85,7 @@ nav a{
 
 nav:hover{
 
-    height: 280px;
+    height: 220px;
 }
 
 ul#out{
@@ -107,7 +116,9 @@ nav:hover ul#out ul{
     opacity: 1;
 }
 
-
+#out>li>a{
+    border-bottom: 2px solid transparent;
+}
 
 ul#out a:hover{
     color:#ef5f49;
@@ -118,9 +129,14 @@ ul#out ul a:hover{
     border-bottom: none;
 }
 ul#out ul a{
-    line-height: 50px;
+    line-height: 30px;
 
 }
+
+#out>li>ul>li{
+    font-size: 1rem;
+}
+
 
 /**
 nav .inner ul{
