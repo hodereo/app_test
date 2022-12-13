@@ -77,11 +77,11 @@ hr{
 }
 .hd_logo .logo_btn a{
     margin-right: 10px;
-    filter:invert(0);
+    filter:grayscale(1);
 }
 
 .hd_logo .logo_btn a:hover{
-    filter:invert(1);
+    filter:grayscale(0);
 }
 
 
@@ -246,9 +246,6 @@ nav .inner ul{
     align-items: center;
 }
 
-.menu a{
-  
-}
 
 .menu a:hover{
     background-color:#cf4430 ;
@@ -257,6 +254,7 @@ nav .inner ul{
 
 .menu ul .menu_cont p{
     margin-left: 15px;
+    display: inline-block;
 }
 
 /****section1****/
@@ -293,26 +291,27 @@ nav .inner ul{
 #sec_1 .inner .cont_left p{
 
     font-size:1rem;
-    font-size: 400;
+    font-size: 700;
     line-height:1.5rem;
     padding: 20px 0;
   
 }
 
 #sec_1 .inner .cont_left a{
-    border:3px solid #cf4431;
-    padding:5px 15px;
-    color:#333333;
     font-weight:500;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     vertical-align: middle;
+    padding:10px 25px;
+    color:#333333;
+    margin-bottom: 20px;
     border-radius: 10px;
 }
 
 #sec_1 .inner .cont_left a:hover {
 background-color: #cf4430;
+padding:10px 25px;
 color:#ffffff;
-transition: 2s;
+transition: 1s;
 }
 
 #sec_1 .cont_right img{
@@ -342,7 +341,7 @@ transition: 2s;
 #sec_2 .sec2_left{
     float: left;
     box-sizing: border-box;
-    padding-top: 140px;
+    padding-top: 160px;
 }
 
 #sec_2 .sec2_right{
@@ -354,16 +353,21 @@ transition: 2s;
 #sec_2 .inner .sec2_left h2{
     font-size: 2.5rem;
     font-weight: 700;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     color:#ffffff;
 }
 
 #sec_2 .inner .sec2_left span{
-    font-size: 1.8rem;
-    color:#ffffff;
+    font-size: 1.3rem;
     font-weight: 700;
-    line-height: 3rem;
+    color:#fbe0b5;
 
+}
+
+#sec_2 .inner .sec2_left p{
+    font-size:1rem;
+    font-size: 700;
+    padding: 20px 0;
 }
 
 #sec_2 .inner .sec2_right{
@@ -381,6 +385,7 @@ transition: 2s;
 #sec_2 .inner .sec2_right span{
     font-size:1.5rem;
 }
+
 
 /****section3****/
 #sec_3{
@@ -451,7 +456,7 @@ transition: 2s;
     background-color: #cf4430;
     padding:10px 25px;
     color:#ffffff;
-    transition: 2s;
+    transition: 1s;
 }
 
 #sec_3 .inner .sec3_cont .btn_left{
