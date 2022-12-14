@@ -179,10 +179,27 @@ nav .inner ul{
 }
 */
 
-
-
-/****bg_main****/
-.bg_main{
+button {
+    -webkit-appearance: none; /* 1 */
+    appearance: none;
+    vertical-align: middle;
+    background: transparent;
+    padding: 0;
+    margin: 0;
+    color:inherit;
+    outline:0;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /*************************** section1 ***************************/
+  #section1{
+    /* overflow: hidden; */
+    position: relative;
+    width: 100%;
+  }
+  #section1 .main_slide_1 .back {
+    /* width: 100%; */
     margin-top: 170px;
     background-image: url("../images/bg_main.jpg");
     background-repeat: no-repeat;
@@ -190,8 +207,29 @@ nav .inner ul{
     width: 100%;
     background-size: cover;
     text-align: center;
+  }
+  #section1 .main_slide_2 .back {
+    /* width: 100%; */
+    margin-top: 170px;
+    background-image: url("../images/bg_main2.png");
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+    text-align: center;
+  }
+  #section1 .main_slide_3 .back {
+    /* width: 100%; */
+    margin-top: 170px;
+    background-image: url("../images/bg_main3.png");
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+    text-align: center;
+  }
 
-}
+/****bg_main****/
 
 .bg_main .inner{
     height: 700px;
@@ -540,8 +578,8 @@ footer .inner .f_right a:nth-child(3){
     border-radius: 30px;
     background-color:#ef5f49;
     position: relative;  
-    top:50px;
-    left:-750px;
+    top:100px;
+    left:-700px;
     text-align: center;
     box-sizing: border-box;
     color: #ffffff;
@@ -566,6 +604,7 @@ input[id="pop1"]:checked ~ .popup_bg{
     display: none;
 }
 
+/*
 .open{
     background-color: #ef5f49;
     color:#fbe0b5;
@@ -576,7 +615,7 @@ input[id="pop1"]:checked ~ .popup_bg{
     left:20px; 
     font-size: 1.2rem;
     font-weight: 700;
-}
+}*/
 
 /****@media****/
 
