@@ -82,6 +82,7 @@ hr{
 
 .hd_logo .logo_btn a:hover{
     filter:grayscale(0);
+    transition-duration: 1s;
 }
 
 
@@ -149,6 +150,7 @@ nav:hover ul#out ul{
 ul#out a:hover{
     color:#ef5f49;
     border-bottom: 2px solid #ef5f49;
+    transition-duration: 1s;
 }
 
 ul#out ul a:hover{
@@ -248,8 +250,9 @@ nav .inner ul{
 
 
 .menu a:hover{
-    background-color:#cf4430 ;
-    transition-duration: 2s;
+    background-color:#cf4430;
+    border-radius: 15px;
+    transition-duration: 1.5s;
 }
 
 .menu ul .menu_cont p{
@@ -258,13 +261,11 @@ nav .inner ul{
 }
 
 /****section1****/
-
 #sec_1{
     background-image: url(../images/bg_sec1.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 #sec_1 .inner{
     display: flex;
     flex-direction: row;
@@ -303,6 +304,7 @@ nav .inner ul{
     vertical-align: middle;
     padding:10px 25px;
     color:#333333;
+    background-color: rgba(251, 224, 181, 0.2);
     margin-bottom: 20px;
     border-radius: 10px;
 }
@@ -311,7 +313,7 @@ nav .inner ul{
 background-color: #cf4430;
 padding:10px 25px;
 color:#ffffff;
-transition: 1s;
+transition-duration: 1.5s;
 }
 
 #sec_1 .cont_right img{
@@ -368,7 +370,7 @@ transition: 1s;
     font-size:1rem;
     font-size: 700;
     padding: 20px 0;
-    color:#fbe0b5;
+    color:#ffffff;
 }
 
 #sec_2 .inner .sec2_right{
@@ -379,12 +381,16 @@ transition: 1s;
 
 
 #sec_2 .inner .sec2_right img{
-    
     vertical-align: middle;
 }
 
-#sec_2 .inner .sec2_right span{
-    font-size:1.5rem;
+#sec_2 .inner .sec2_right a{
+    filter:grayscale(0);
+}
+
+#sec_2 .inner .sec2_right a:hover{
+    filter:grayscale(1);
+    transition-duration: 1.5s;
 }
 
 
@@ -451,13 +457,14 @@ transition: 1s;
     font-weight:600;
     margin-bottom: 20px;
     border-radius: 10px;
+    background-color: rgba(251, 224, 181, 0.2);
 }
 
 #sec_3 .inner .sec3_cont a:hover{
     background-color: #cf4430;
     padding:10px 25px;
     color:#ffffff;
-    transition: 1s;
+    transition: 1.5s;
 }
 
 #sec_3 .inner .sec3_cont .btn_left{
