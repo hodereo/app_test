@@ -82,7 +82,7 @@ hr{
 
 .hd_logo .logo_btn a:hover{
     filter:grayscale(0);
-    transition-duration: 1s;
+    transition: 0.5s;
 }
 
 
@@ -96,7 +96,7 @@ hr{
 nav{
     width:100%;
     height: 70px;
-    transition-duration: 0.5s;
+    transition-duration: 0.3s;
 }
 
 nav a{
@@ -110,7 +110,7 @@ nav a{
 
 nav:hover{
     height: 210px;
-    transition-duration: 0.5s;
+    transition: 0.5s;
 }
 
 ul#out{
@@ -140,7 +140,7 @@ ul#out ul{
 nav:hover ul#out ul{
     opacity: 1;
     display: block;
-    transition-duration: 2s;
+    transition: 0.5s;
 }
 
 #out>li>a{
@@ -150,7 +150,7 @@ nav:hover ul#out ul{
 ul#out a:hover{
     color:#ef5f49;
     border-bottom: 2px solid #ef5f49;
-    transition-duration: 1s;
+    transition: 0.5s;
 }
 
 ul#out ul a:hover{
@@ -295,7 +295,7 @@ button {
 .menu a:hover{
     background-color:#cf4430;
     border-radius: 15px;
-    transition-duration: 1.5s;
+    transition: 0.5s;
 }
 
 .menu ul .menu_cont p{
@@ -353,10 +353,10 @@ button {
 }
 
 #sec_1 .inner .cont_left a:hover {
-background-color: #cf4430;
-padding:10px 25px;
-color:#ffffff;
-transition-duration: 1.5s;
+    background-color: #cf4430;
+    padding:10px 25px;
+    color:#ffffff;
+    transition: 0.5s;
 }
 
 #sec_1 .cont_right img{
@@ -433,7 +433,7 @@ transition-duration: 1.5s;
 
 #sec_2 .inner .sec2_right a:hover{
     filter:grayscale(1);
-    transition-duration: 1.5s;
+    transition: 0.5s;
 }
 
 
@@ -500,14 +500,14 @@ transition-duration: 1.5s;
     font-weight:600;
     margin-bottom: 20px;
     border-radius: 10px;
-    background-color: rgba(251, 224, 181, 0.2);
+    background-color: rgba(251, 224, 181, 0.4);
 }
 
 #sec_3 .inner .sec3_cont a:hover{
     background-color: #cf4430;
     padding:10px 25px;
     color:#ffffff;
-    transition: 1.5s;
+    transition: 0.5s;
 }
 
 #sec_3 .inner .sec3_cont .btn_left{
@@ -572,6 +572,7 @@ footer .inner .f_right a:nth-child(3){
 }
 
 .popup_bg{
+    display: none; /****메인 슬라이더 선생님이 수정해서 주실 때까지 일단 display:none; 주기 / 주시면 바로 삭제!****/
     background-color: rgba(0,0,0,0.2 );
     width: 100%;
     height: 100%;

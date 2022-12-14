@@ -25,24 +25,22 @@ button {
 #section1 .main_slide_1 .back {
   /* width: 100%; */
   background-image: url(../images/bg_main.jpg);
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
-  width: 1920px;
   height: 700px;
 }
 #section1 .main_slide_2 .back {
   /* width: 100%; */
   background-image: url(../images/bg_main2.png);
-  background-size: 100%;
+  background-size:  cover;
   background-repeat: no-repeat;
-  width: 1920px;
+
   height: 700px;
 }
 #section1 .main_slide_3 .back {
   /* width: 100%; */
   background-image: url(../images/bg_main3.png);
-  background-size: 100%;
+  background-size:  cover;
   background-repeat: no-repeat;
-  width: 1920px;
   height: 700px;
 }

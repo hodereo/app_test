@@ -125,7 +125,7 @@
 /**************메인 슬라이드**************/
 #section1 .slick-arrow {
     position: absolute;
-    top: 50%; left: 0;
+    top: 60%; left: 0;  /*************원래 top:50%; 였음**************/
     z-index: 15;
     font-size: 0;
 }
