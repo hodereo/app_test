@@ -37,11 +37,9 @@ header{
     background-color: #ffffff;
     position: fixed;
     top:0;
+    z-index: 999;
 }
 
-hr{
-    border-bottom:1px solid #c1beb6;
-}
 
 .hd_logo{
     width: 100%;
@@ -97,6 +95,8 @@ nav{
     width:100%;
     height: 70px;
     transition-duration: 0.3s;
+    border-top: 1px solid #929290 ;
+    border-bottom: 1px solid #e6e5e3 ;
 }
 
 nav a{
@@ -165,6 +165,8 @@ ul#out ul a{
 #out>li>ul>li{
     font-size: 1.1rem;
 }
+
+
 
 
 /**
@@ -572,7 +574,7 @@ footer .inner .f_right a:nth-child(3){
 }
 
 .popup_bg{
-    display: none; /****메인 슬라이더 선생님이 수정해서 주실 때까지 일단 display:none; 주기 / 주시면 바로 삭제!****/
+    z-index: 999;                 /*display: none;메인 슬라이더 선생님이 수정해서 주실 때까지 일단 display:none; 주기 / 주시면 바로 삭제!****/
     background-color: rgba(0,0,0,0.2 );
     width: 100%;
     height: 100%;
@@ -587,7 +589,7 @@ footer .inner .f_right a:nth-child(3){
     background-color:#ef5f49;
     position: relative;  
     top:100px;
-    left:-700px;
+    left:200px;
     text-align: center;
     box-sizing: border-box;
     color: #ffffff;
