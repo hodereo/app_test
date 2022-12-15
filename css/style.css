@@ -273,7 +273,7 @@ button {
     height: 120px;
     background-color: #ef5f49;
     color:#ffffff;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     font-weight: 700;
     box-sizing: border-box;
 }
@@ -295,7 +295,7 @@ button {
 
 
 .menu a:hover{
-    background-color:#cf4430;
+    transform: scale(1.03);
     border-radius: 15px;
     transition: 0.5s;
 }
@@ -303,6 +303,7 @@ button {
 .menu ul .menu_cont p{
     margin-left: 15px;
     display: inline-block;
+    line-height: 2rem;
 }
 
 /****section1****/
